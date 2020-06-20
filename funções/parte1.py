@@ -9,9 +9,9 @@ def somar(num1, num2):
 somar(num1, num2)
 """
 def saudacao(msg, nome):
-    print(msg, nome)
+    print(f'{msg}, {nome}')
 
-msg = 'Olá,'
+msg = 'Olá'
 nome = input('Digite seu nome: ')
 
 saudacao(msg, nome)
