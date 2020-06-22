@@ -12,8 +12,5 @@ produtos = [
     ['Liquidificador', 100.00]
 ]
 
-def ordenar(item):
-    return item[1]
-
-produtos.sort(key = ordenar, reverse = True)
+produtos.sort(key = lambda item: item[1], reverse = True)
 print(produtos)
