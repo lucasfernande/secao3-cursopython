@@ -12,5 +12,4 @@ produtos = [
     ['Liquidificador', 100.00]
 ]
 
-produtos.sort(key = lambda item: item[1], reverse = True)
-print(produtos)
+print(sorted(produtos, key = lambda i: i[1], reverse = True))
