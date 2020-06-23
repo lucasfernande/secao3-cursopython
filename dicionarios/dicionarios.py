@@ -58,9 +58,10 @@ for usersKey, usersValue in users.items():
     for dataKey, dataValue in usersValue.items():
         print(f'\t{dataKey}: {dataValue}')
 """
+import copy
 
 dc = {1 : 'a', 2 : 'b', 3 : 'c'}
-copia = dc.copy()
+copia = copy.deepcopy(dc)
 copia[1] = 'A'
 copia[3] = 'C'
 
