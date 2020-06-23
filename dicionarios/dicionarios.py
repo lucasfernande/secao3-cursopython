@@ -30,6 +30,7 @@ print('valor da chave' in dicio.values()) # checando se valor da chave existe no
 print(len(dicio))
 """
 
+"""
 for key in dicio.keys(): # iterando sobre as chaves
     print(key)
 
@@ -38,3 +39,20 @@ for value in dicio.values(): # iterando sobre os valores
 
 for items in dicio.items(): # iterando sobre chaves e valores
     print(items)
+"""
+
+users = {
+        '1' : {
+            'nome' : 'Bob',
+            'sobrenome' : 'Brownie'
+        },
+        '2' : {
+            'nome' : 'Maria',
+            'sobrenome' : 'Araújo'
+        },
+}
+
+for usersKey, usersValue in users.items():
+    print(f'Id: {usersKey}')
+    for dataKey, dataValue in usersValue.items():
+        print(f'\t{dataKey}: {dataValue}')
