@@ -25,3 +25,5 @@ print(dicio)
 print('chave2' in dicio)
 print('chave2' in dicio.keys())
 print('valor da chave' in dicio.values())
+
+print(len(dicio))
