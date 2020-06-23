@@ -8,3 +8,4 @@ print(dicio['nomedaChave'])
 
 dicio = dict(chave = 'valor da chave', chave2 = 'valor da chave2')
 print(dicio)
+print(dicio.get('chave'))
