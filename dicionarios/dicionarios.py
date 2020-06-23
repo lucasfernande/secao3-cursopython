@@ -41,6 +41,7 @@ for items in dicio.items(): # iterando sobre chaves e valores
     print(items)
 """
 
+"""
 users = {
         '1' : {
             'nome' : 'Bob',
@@ -56,3 +57,12 @@ for usersKey, usersValue in users.items():
     print(f'Id: {usersKey}')
     for dataKey, dataValue in usersValue.items():
         print(f'\t{dataKey}: {dataValue}')
+"""
+
+dc = {1 : 'a', 2 : 'b', 3 : 'c'}
+copia = dc.copy()
+copia[1] = 'A'
+copia[3] = 'C'
+
+print(dc)
+print(copia)
