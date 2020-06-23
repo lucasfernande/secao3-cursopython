@@ -4,9 +4,9 @@ dicio['outra_chave'] = 'valor da outra chave'
 
 print(dicio)
 print(dicio['nomedaChave'])
-"""
 
 dicio = dict(chave = 'valor da chave', chave2 = 'valor da chave2')
+"""
 
 """
 print(dicio)
@@ -58,6 +58,8 @@ for usersKey, usersValue in users.items():
     for dataKey, dataValue in usersValue.items():
         print(f'\t{dataKey}: {dataValue}')
 """
+
+"""
 import copy
 
 dc = {1 : 'a', 2 : 'b', 3 : 'c'}
@@ -67,3 +69,13 @@ copia[3] = 'C'
 
 print(dc)
 print(copia)
+"""
+
+lista = [ # fazendo uma lista similar a um dicionário, não é toda lista que pode ser convertida para dicionario
+    ['chave1' , 1], # também funciona com tuplas
+    ['chave2' , 2],
+    ['chave3' , 3]
+]
+
+dicio = dict(lista)
+print(dicio)
