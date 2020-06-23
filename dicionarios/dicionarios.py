@@ -14,3 +14,6 @@ dicio.update({'chave':'outro valor'}) # atualizando uma chave
 dicio.update({'chave3':'valor da chave3'}) # adicionando uma nova chave
 
 print(dicio)
+
+del dicio['chave3'] # deletando uma chave
+print(dicio)
