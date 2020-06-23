@@ -7,6 +7,8 @@ print(dicio['nomedaChave'])
 """
 
 dicio = dict(chave = 'valor da chave', chave2 = 'valor da chave2')
+
+"""
 print(dicio)
 print(dicio.get('chave'))
 
@@ -17,3 +19,9 @@ print(dicio)
 
 del dicio['chave3'] # deletando uma chave
 print(dicio)
+
+"""
+
+print('chave2' in dicio)
+print('chave2' in dicio.keys())
+print('valor da chave' in dicio.values())
