@@ -15,3 +15,28 @@ perguntas = {
         'resp_certa' : 'a',
     },
 }
+acertos = 0
+erros = 0
+
+
+for chavePergunta, perguntaValor in perguntas.items():
+    print()
+    print(f'{chavePergunta} : {perguntaValor["pergunta"]}')
+
+    for chaveResposta, respostaValor in perguntaValor['respostas'].items():
+        print(f'[{chaveResposta}] : {respostaValor}')
+
+    respostaUsuario = input('Digite a alternativa correta: ')
+
+    if respostaUsuario == perguntaValor['resp_certa']:
+        print()
+        print('Resposta correta')
+        acertos += 1
+    else:
+        print()
+        print('Resposta incorreta')
+        erros += 1
+
+print()
+perc = acertos / len(perguntas) * 100
+print(f'{perc:.1f}% de acerto')
