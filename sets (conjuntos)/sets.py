@@ -11,3 +11,7 @@ set.discard(10)
 set.discard(9)
 
 print(set)
+
+set.update([9, 10, 11, 12])
+
+print(set)
