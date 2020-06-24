@@ -1,4 +1,8 @@
 set = {1, 2, 3, 4, 5, 6, 7}
 
+set.add(8)
+set.add(9)
+set.add(10)
+
 for valor in set:
     print(valor)
