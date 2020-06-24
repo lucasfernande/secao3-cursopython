@@ -6,3 +6,8 @@ set.add(10)
 
 for valor in set:
     print(valor)
+
+set.discard(10)
+set.discard(9)
+
+print(set)
