@@ -14,6 +14,16 @@ perguntas = {
         'respostas' : {'a' : 'Rússia', 'b' : 'Brasil', 'c' : 'Canadá' ,'d' : 'Estados Unidos'},
         'resp_certa' : 'a',
     },
+    'Pergunta 4' : {
+        'pergunta' : 'Quem pintou o quadro "Guernica"' ,
+        'respostas' : {'a' : 'Diego Rivera', 'b' : 'Paul Cézanne', 'c' : 'Pablo Picasso' ,'d' : 'Salvador Dalí'},
+        'resp_certa' : 'c',
+    },
+    'Pergunta 5' : {
+        'pergunta' : 'Quem foi o primeiro homem a pisar na Lua?"' ,
+        'respostas' : {'a' : 'Yuri Gagarin', 'b' : 'Buzz Aldrin', 'c' : 'Charles Duke' ,'d' : 'Neil Armstrong'},
+        'resp_certa' : 'd',
+    },
 }
 acertos = 0
 erros = 0
@@ -39,4 +49,5 @@ for chavePergunta, perguntaValor in perguntas.items():
 
 print()
 perc = acertos / len(perguntas) * 100
+print(f'Acertos: {acertos}, erros: {erros}')
 print(f'{perc:.1f}% de acerto')
