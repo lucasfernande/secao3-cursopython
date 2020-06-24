@@ -5,13 +5,13 @@ perguntas = {
         'resp_certa' : 'c',
     },
     'Pergunta 2' : {
-            'pergunta' : 'Em que ano foi promulgada a Constituição da República Federativa do Brasil?' ,
-            'respostas' : {'a' : '1984', 'b' : '1985', 'c' : '1990', 'd' : '1988'},
-            'resp_certa' : 'd',
+        'pergunta' : 'Em que ano foi promulgada a Constituição da República Federativa do Brasil?' ,
+        'respostas' : {'a' : '1984', 'b' : '1985', 'c' : '1990', 'd' : '1988'},
+        'resp_certa' : 'd',
     },
     'Pergunta 3' : {
-            'pergunta' : 'Qual o maior país do Mundo' ,
-            'respostas' : {'a' : 'Rússia', 'b' : 'Brasil', 'c' : 'Canadá' ,'d' : 'Estados Unidos'},
-            'resp_certa' : 'a',
+        'pergunta' : 'Qual o maior país do Mundo' ,
+        'respostas' : {'a' : 'Rússia', 'b' : 'Brasil', 'c' : 'Canadá' ,'d' : 'Estados Unidos'},
+        'resp_certa' : 'a',
     },
 }
