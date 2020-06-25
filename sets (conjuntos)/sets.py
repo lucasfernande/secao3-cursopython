@@ -37,3 +37,9 @@ print(set4)
 
 set5 = set2 - set1
 print(set5)
+
+set6 = {1, 2, 3, 4}
+set7 = {1, 2, 3, 5}
+
+set8 = set6 ^ set7
+print(set8)
