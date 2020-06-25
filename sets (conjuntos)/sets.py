@@ -34,3 +34,6 @@ print(set3)
 
 set4 = set1 & set2
 print(set4)
+
+set5 = set2 - set1
+print(set5)
