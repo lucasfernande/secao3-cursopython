@@ -1,8 +1,4 @@
-lista = [
-    ('chave', 'valor'),
-    ('chave1', 'valor1')
-]
 
-dicio = {key : value for key, value in lista}
+dicio = {f'chave{x}': x*2 for x in range(5)}
 
 print(dicio)
