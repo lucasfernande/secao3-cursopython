@@ -17,5 +17,8 @@ print(conv)
 """
 
 lista = list(range(100))
-filtro =  [valor for valor in lista if valor % 2 == 0]
+filtro = [valor for valor in lista if valor % 2 == 0]
 print(filtro)
+
+filtro2 = [valor for valor in lista if valor % 3 == 0 if valor % 8 == 0]
+print(filtro2)
