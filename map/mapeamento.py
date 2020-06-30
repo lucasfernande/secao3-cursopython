@@ -7,7 +7,11 @@ print(dados.lista)
 print(newList)
 """
 
-precos = list(map(lambda p: p['preco'], dados.produtos))
+def reajuste(p):
+    p['preco'] = round(p['preco'] * 1.05, 2)
+    return p
 
-for preco in precos:
-    print(preco)
+precos = map(reajuste, dados.produtos)
+
+for p in precos:
+    print(p)
