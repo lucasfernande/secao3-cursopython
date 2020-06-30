@@ -19,5 +19,5 @@ notasAgrupadas = itertools.groupby(notas, ordena)
 for grupos, alunos in notasAgrupadas:
     print(f'Nota: {grupos}')
     for aluno in alunos:
-        print(aluno['nome'])
+        print(f"\t{aluno['nome']}")
     print()
