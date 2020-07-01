@@ -4,7 +4,11 @@ import dados
 # filtro = filter(lambda x: x > 4, dados.lista)
 # print(list(filtro))
 
-filtroProduto = filter(lambda p: p['preco'] > 45, dados.produtos)
+def filtra(prod):
+    if prod['preco'] > 50:
+        return True
+
+filtroProduto = filter(filtra, dados.produtos)
 
 for prod in filtroProduto:
     print(prod)
