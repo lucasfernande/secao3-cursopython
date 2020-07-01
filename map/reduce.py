@@ -1,9 +1,6 @@
 import functools
 import dados
 
-acumulador = 0
+somaLista = functools.reduce(lambda ac, i: i + ac, dados.lista, 0)
 
-for v in dados.lista:
-    acumulador += v
-
-print(acumulador)
+print(somaLista)
