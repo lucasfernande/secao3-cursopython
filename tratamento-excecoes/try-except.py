@@ -1,4 +1,4 @@
 try:
     print(a)
-except:
-    print('Erro')
+except NameError as erro:
+    print('Erro: ', erro)
