@@ -9,4 +9,9 @@ print('Lendo arquivo: ')
 print(file.read())
 print()
 
+file.seek(0, 0)
+print(file.readline(), end='') # end para não quebrar linha
+print(file.readline(), end='')
+print(file.readline())
+
 file.close()
