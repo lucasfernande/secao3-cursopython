@@ -21,7 +21,7 @@ for line in file.readlines():
 
 file.close()
 """
-
+"""
 with open('in.txt', 'a+') as file: # o a+ não apaga o que tinha no arquivo anteriormente, o w+ apaga
     file.write('Linha\n')
     file.write('Outra\n')
@@ -29,3 +29,7 @@ with open('in.txt', 'a+') as file: # o a+ não apaga o que tinha no arquivo ante
 
     file.seek(0, 0)
     print(file.read())
+"""
+
+import os
+os.remove('in.txt')
