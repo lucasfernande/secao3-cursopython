@@ -22,10 +22,10 @@ for line in file.readlines():
 file.close()
 """
 
-with open('in.txt', 'w+') as file:
+with open('in.txt', 'a+') as file: # o a+ não apaga o que tinha no arquivo anteriormente, o w+ apaga
     file.write('Linha\n')
     file.write('Outra\n')
-    file.write('Outra Linha')
+    file.write('Outra Linha\n')
 
     file.seek(0, 0)
     print(file.read())
